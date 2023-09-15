@@ -7,7 +7,7 @@ const Course = ({ course, handleSelectCourse }) => {
     <div className="bg-white p-4 rounded-xl">
       <figure>
         <img
-          className="rounded-lg"
+          className="rounded-lg md:max-h-[12vw] lg:max-h-[10vw] 2xl:max-h-[6vw] w-full"
           src={course.image}
           alt={course.course_name}
         />

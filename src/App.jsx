@@ -16,7 +16,7 @@ function App() {
     courses.map(
       (course) => ((credit += course.credit), (price += course.price))
     );
-    
+
     const isExist = courses.find((current) => course.id === current.id);
     if (credit > 20)
       return Swal.fire(
@@ -27,7 +27,7 @@ function App() {
       return Swal.fire(
         `The Course "${course.course_name}" Already Added. Please Select Another One.`
       );
-      
+
     setCourses([...courses, course]);
     setCredit(credit);
     setPrice(price);
