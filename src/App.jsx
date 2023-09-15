@@ -18,14 +18,15 @@ function App() {
     );
 
     const isExist = courses.find((current) => course.id === current.id);
-    if (credit > 20)
-      return Swal.fire(
-        `Sorry You Have Remaining ${20 - credit + course.credit} Credits Only.`
-      );
 
     if (isExist)
       return Swal.fire(
-        `The Course "${course.course_name}" Already Added. Please Select Another One.`
+        `The course "${course.course_name}" has already been added. Please select another one.`
+      );
+
+    if (credit > 20)
+      return Swal.fire(
+        `Sorry, you have only ${20 - credit + course.credit} credit remaining`
       );
 
     setCourses([...courses, course]);
