@@ -2,8 +2,8 @@
 
 ## The Answers to The Questions
 
-- [_Three Features in This Project_](#Features)
-- [_Managing of State in This Project_](#State_Management)
+1. [_Three Features in This Project_](#Features)
+2. [_Managing of State in This Project_](#State_Management)
 
 ### Features
 
