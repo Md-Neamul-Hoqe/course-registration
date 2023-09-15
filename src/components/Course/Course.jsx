@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import "./Course.css";
 
 const Course = ({ course, handleSelectCourse }) => {
   return (
