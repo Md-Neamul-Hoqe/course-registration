@@ -11,7 +11,6 @@ const Courses = ({ handleSelectCourse }) => {
       .then((data) => setCourses(data));
   }, []);
 
-  // console.log(courses);
 
   return (
     <section className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
