@@ -1,0 +1,74 @@
+[
+    {
+        "id": "course001",
+        "image": "https://example.com/course001.jpg",
+        "course_name": "mathematics for beginners",
+        "credit": 3,
+        "price": 49.99,
+        "details": "This course covers the fundamental concepts of mathematics, perfect for beginners looking to build a strong foundation in math."
+    },
+    {
+        "id": "course002",
+        "image": "https://example.com/course002.jpg",
+        "course_name": "programming fundamentals",
+        "credit": 4,
+        "price": 79.99,
+        "details": "Explore the basics of programming with this comprehensive course, suitable for beginners and those looking to refresh their coding skills."
+    },
+    {
+        "id": "course003",
+        "image": "https://example.com/course003.jpg",
+        "course_name": "web development essentials",
+        "credit": 5,
+        "price": 99.99,
+        "details": "Learn the essential skills and tools required for web development, including HTML, CSS, and JavaScript."
+    },
+    {
+        "id": "course004",
+        "image": "https://example.com/course004.jpg",
+        "course_name": "data science fundamentals",
+        "credit": 4,
+        "price": 89.99,
+        "details": "Dive into the world of data science with this introductory course, covering data analysis and visualization techniques."
+    },
+    {
+        "id": "course005",
+        "image": "https://example.com/course005.jpg",
+        "course_name": "business management principles",
+        "credit": 3,
+        "price": 69.99,
+        "details": "Gain insights into the principles of effective business management and leadership strategies."
+    },
+    {
+        "id": "course006",
+        "image": "https://example.com/course006.jpg",
+        "course_name": "graphic design essentials",
+        "credit": 3,
+        "price": 59.99,
+        "details": "Explore the fundamentals of graphic design, including layout, color theory, and typography."
+    },
+    {
+        "id": "course007",
+        "image": "https://example.com/course007.jpg",
+        "course_name": "english for business communication",
+        "credit": 2,
+        "price": 49.99,
+        "details": "Improve your business communication skills with this course, focusing on effective English language usage in professional settings."
+    },
+    {
+        "id": "course008",
+        "image": "https://example.com/course008.jpg",
+        "course_name": "digital marketing strategies",
+        "credit": 4,
+        "price": 79.99,
+        "details": "Master the strategies and techniques of digital marketing to effectively promote products and services online."
+    },
+    {
+        "id": "course009",
+        "image": "https://example.com/course009.jpg",
+        "course_name": "art history: ancient civilizations",
+        "credit": 3,
+        "price": 69.99,
+        "details": "Explore the art and culture of ancient civilizations in this fascinating course that delves into their artistic achievements."
+    }
+]
