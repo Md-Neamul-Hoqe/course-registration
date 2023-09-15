@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
-const Cart = ({ courses }) => {
+const Cart = ({ price, credit, courses }) => {
   console.log(courses);
   return (
     <div className="bg-white p-6 rounded-xl">
       <h3 className="text-lg text-blue-500 leading-7 font-bold border-b-2 py-2">
-        Credit Hour Remaining {7} hr
+        Credit Hour Remaining {20 - credit} hr
       </h3>
       <div className="border-b-2 py-4">
         <h2 className="text-xl font-bold ">Course Name</h2>
@@ -16,11 +16,11 @@ const Cart = ({ courses }) => {
       </div>
 
       <h5 className="border-b-2 py-4 text-[#1C1B1B]/80">
-        Total Credit Hour : {}
+        Total Credit Hour : {credit}
       </h5>
 
       <h5 className="border-b-2 py-4 text-[#1C1B1B]/80">
-        Total Price : {48000} USD
+        Total Price : {price} USD
       </h5>
     </div>
   );
@@ -28,5 +28,7 @@ const Cart = ({ courses }) => {
 
 Cart.propTypes = {
   courses: PropTypes.array.isRequired,
+  credit: PropTypes.number.isRequired,
+  price: PropTypes.number.isRequired,
 };
 export default Cart;
