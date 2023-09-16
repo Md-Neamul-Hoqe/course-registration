@@ -58,11 +58,11 @@ function App() {
           Course Registration
         </h1>
       </header>
-      <main className="main-section mx-auto max-sm:px-5 px-14 flex max-sm:flex-col-reverse flex-row gap-6">
-        <aside className="max-sm:max-w-full max-w-[75%]">
+      <main className="max-lg:px-5 max-2xl:px-14 flex max-sm:flex-col-reverse flex-row gap-6">
+        <aside className="max-sm:max-w-full min-w-[75%] flex-1">
           <Courses handleSelectCourse={handleSelectCourse}></Courses>
         </aside>
-        <aside className="max-sm:max-w-full max-w-[25%]">
+        <aside className="max-sm:max-w-full">
           <Cart
             price={price}
             credit={credit}
