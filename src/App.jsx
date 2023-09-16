@@ -25,8 +25,6 @@ function App() {
         `The course "${course.course_name}" has already been added. Please select another one.`
       );
 
-    if (credit < 0) return Swal.fire(`Credit can't negative value.`);
-
     if (credit > creditBoundary)
       return Swal.fire(
         `Sorry, you have only ${
@@ -45,8 +43,8 @@ function App() {
     let newCredit = credit - course.credit;
     let newPrice = price - course.price;
 
-    if (newPrice < 0) newPrice = 0;
-    else if (newCredit < 0) newCredit = 0;
+    if (newPrice < 0 || !courses.length) newPrice = 0;
+    if (newCredit < 0 || !courses.length) newCredit = 0;
 
     setCredit(newCredit);
     setPrice(newPrice);
